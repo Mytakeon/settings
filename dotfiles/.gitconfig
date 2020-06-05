@@ -1,0 +1,27 @@
+[core]
+autocrlf = false
+excludesfile = ~/.gitignore_global
+autoclrf = false
+[push]
+default = simple
+[alias]
+st = status
+co = checkout
+mt = mergetool
+rc = rebase --continue
+ra = rebase --abort
+pushf = push --force-with-lease
+[rebase]
+autosquash = true
+[pull]
+rebase = merges
+[merge]
+tool = kdiff3
+ff = false
+[filter "lfs"]
+clean = git-lfs clean -- %f
+smudge = git-lfs smudge -- %f
+process = git-lfs filter-process
+required = true
+[rerere]
+enabled = true

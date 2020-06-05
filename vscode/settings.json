@@ -1,0 +1,64 @@
+{
+  "workbench.colorTheme": "Material Theme High Contrast",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.mouseWheelZoom": true,
+  "editor.fontSize": 14,
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": false,
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 8,
+  "editor.codeLens": true,
+  "editor.rulers": [140],
+  "window.newWindowDimensions": "fullscreen",
+  "window.restoreFullscreen": true,
+  // Typescript
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "extensions.ignoreRecommendations": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "HAck, Menlo, Monaco, 'Courier New', monospace",
+  "files.exclude": {
+    "*.js: { \"when\": \"$(basename).ts\" }": true,
+    "**/*.js: { \"when\": \"$(basename).ts\" }": true
+  },
+  "search.useGlobalIgnoreFiles": true,
+  "task.autoDetect": "off",
+  "workbench.colorCustomizations": {},
+  "merge-conflict.diffViewPosition": "Beside",
+  "terminal.integrated.rendererType": "dom",
+  "workbench.editor.showTabs": true,
+  // gitlens
+  "git.confirmSync": false,
+  "gitlens.gitCommands.closeOnFocusOut": true,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.views.stashFileDescriptionFormat": "${  ←  originalPath}",
+  "gitlens.blame.ignoreWhitespace": true,
+  // python
+  "python.formatting.autopep8Args": ["--max-line-length=120"],
+  "sonarlint.rules": {
+    "python:S107": {
+      "level": "off"
+    }
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "debug.onTaskErrors": "debugAnyway",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[c]": {
+    "editor.autoIndent": "advanced"
+  },
+  "vim.camelCaseMotion.enable": true,
+  "vim.easymotion": true,
+  "vim.highlightedyank.enable": true,
+  "vim.sneak": true,
+  "editor.lineNumbers": "relative",
+  "vim.leader": "space"
+}

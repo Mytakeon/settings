@@ -1,0 +1,12 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "ccat"
+brew "gnupg"
+brew "htop"
+brew "jq"
+brew "mono", link: false
+brew "tldr"
+brew "tree"
+brew "watch"
+brew "yarn"
