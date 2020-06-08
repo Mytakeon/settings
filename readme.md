@@ -4,16 +4,16 @@ Simple template to keep all user settings in one repository. Useful to group, sh
 After cloning the repository, use the `create-sym-link.sh` script to move the files and create a symbolic link.
 ```bash 
 git clone https://github.com/Mytakeon/settings.git
-export createLink="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/settings/create-sym-link.sh"
+source settings/create-sym-link.sh
 
 # dot files
 cd ~ 
-$createLink .zshrc
-$createLink .aws  # Also works for directories
+createLink .zshrc
+createLink .aws  # Also works for directories
 
 # VSCode
 cd  ~/Library/Application\ Support/Code/User/ # user settings path with default installation
-$createLink settings.json
+createLink settings.json
 ```
 ---
 Backups for programs that require a manual save/load operation:
