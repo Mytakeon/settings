@@ -21,9 +21,8 @@ Backups for programs that require a manual save/load operation:
 
 ```bash
 brew tap Homebrew/bundle  # install brew bundle
-cd ~/repositories/perso/settings/dotfiles/
+cd .../settings/dotfiles/
 brew bundle dump  # Creates Brewfile
-cd ~/repositories/perso/settings/
 ...
 brew bundle  # Install packages from Brewfile
 ```
